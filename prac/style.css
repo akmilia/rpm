@@ -1,0 +1,70 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; 
+  color: white; 
+  height: 35px;
+  
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.titles {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around; 
+
+}
+
+.titles h3 {
+  margin:0 10px; 
+  font-size: medium;
+}
+
+.action button {
+  padding: 10px 20px; 
+  background-color: #FF006B;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+.messengers img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.start { 
+  position: relative;
+  height: 650px; 
+  width: 50%; 
+  margin-left: auto; 
+  margin-right: auto; 
+  align-items: center;
+
+  background-color: pink; 
+  opacity: 25%;
+   
+} 
+.hr{
+  background-color: #FF006B;
+}
+.middle {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  margin-top: 954px; 
+  background-color: magenta; 
+  opacity: 25%;
+}
+footer {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  border-top: white;
+}
